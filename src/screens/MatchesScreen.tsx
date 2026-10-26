@@ -51,7 +51,7 @@ export function MatchesScreen() {
   const [round, setRound] = useState<number | null>(null);
   const [filter, setFilter] = useState<Filter>('all');
   const [updatedAt, setUpdatedAt] = useState<Date | null>(null);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const { isFavorite, toggle } = useFavorites();
 
